@@ -1,0 +1,35 @@
+*:not(i){
+    font-family: Gill Sans, sans-serif;
+    font-weight: 100;
+}
+body {
+    background-color: #eeeed1;
+}
+
+.center {
+    text-align: center;
+}
+img.imgCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.header {
+    color: rgb(196, 107, 107);
+    font-size: 16px;
+    font: monospace;
+}
+
+table {
+    border: 1px; /* Рамка вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+}
+
+input:hover[type="submit"] {
+    color: #F89B4D;
+}
+
+*::selection {
+    background-color: #F89B4D;
+}
+
